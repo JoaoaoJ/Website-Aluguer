@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <!--<link rel="stylesheet" type="text/css" href="style.css" />-->
+    <style>
+      html{
+        font-size: 100%;
+      }
+      body {
+        background-color: gray;
+        background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+        background-size: 50px 50px;
+        color: #6f7b8a;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size:13px;
+        padding: 0px !important;
+        margin: 0px !important;
+        line-height: 1.5;
+        font-style: normal;
+        font-weight: normal;
+        background-color:#f2f4f6;
+        text-rendering: optimizeLegibility;
+      }
+      .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        .active {
+          background-color: red;
+          color: white;
+        }
+      .footer{
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: #333;
+          color: white;
+          text-align: center;
+          height: 80px;
+      }
+      .footer .sitio{
+          text-align: left;
+          padding-left: 150px;
+      }
+      .footer .contacto{
+          position: relative;
+          top:-90px;
+      }
+      .footer .contacto #h1{
+          font-size: 150%;
+          position: relative;
+          top: 10px;
+          color: white;
+      }
+      .footer .contacto a:link, a:visited{
+          text-decoration: none;
+      }
+      .footer .p1{
+          text-align: right;
+          padding-right: 150px;
+          position: relative;
+          top: -150px;
+      }
+      .containers .fazemos{
+          position: relative;
+          top: 350px;
+          background-color:#333;
+          color: white;
+          width: 300px;
+          left: 100px;
+          padding-left: 10px;
+          padding-bottom: 10px;
+          border-radius: 2px;
+      }
+      .containers .conta{
+          position: relative;
+          background-color:#333;
+          color: white;
+          width: 300px;
+          top: 215px;
+          left: 500px;
+          padding-left: 10px;
+          padding-bottom: 10px;
+          border-radius: 2px;
+      }
+      .containers .reserve{
+          position: relative;
+          background-color:#333;
+          color: white;
+          width: 300px;
+          top: 62px;
+          left: 900px;
+          padding-left: 10px;
+          padding-bottom: 10px;
+          border-radius: 2px;
+      }
+      .containers{
+          width: 100px;
+          position: relative;
+          left: 100px;
+          top: -150px;
+      }
+      #titulo{
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          text-align: center;
+          font-size: 500%;
+      }
+    </style>
+</head>
+
+<body>
+    <header><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></header>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="/site2/imoveis/imoveis.php">Imovéis</a>
+        <a href="/site2/reserva/reserva.php">Reservas</a>
+        <a href="/site2/historico/historico.php">Histórico</a>
+        <a href="/site2/login/login.php">Login</a>
+        <a href="/site2/contacto/contacto.php">Contactos</a>
+    </div>
+    <h1 id="titulo">Reserva Imóveis</h1>
+    <div class="containers">
+        <div class="fazemos">
+            <h1>O que fazemos:</h1>
+            <p>Neste website poderá criar uma conta e reservar imóveis na sua área ou onde precisar.</p>
+        </div>
+        <div class="conta">
+            <h1>Crie uma conta:</h1>
+            <p>Ao criar uma conta no nosso website poderá reservar imóveis, adicionar hospedes nas suas reservas e ver
+                o seu histórico de reservas.</p>
+        </div>
+        <div class="reserve">
+            <h1>Reserve um imóvel:</h1>
+            <p>Neste website pode reservar imóveis de acordo com a sua preferência, pode também procurar imóveis por
+                localização.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="sitio">
+            <p>0000, Lourosa<br>
+                Avenida Principal,<br>
+                Aveiro, Portugal.</p>
+        </div>
+        <div class="contacto">
+            <a href="#contactos">
+                <h1 id="h1">Contacte-nos:</h1>
+            </a>
+            <p>919999999<br>jonasmiguel99@hotmail.com</p>
+        </div>
+        <div>
+            <p class="p1">Bem Vindo ao nosso website!</p>
+        </div>
+    </div>
+</body>
+
+</html>
